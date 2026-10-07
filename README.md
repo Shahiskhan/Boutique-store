@@ -12,6 +12,8 @@
 
 **Learning project · Portfolio project · Customer storefront + admin portal**
 
+[🌐 View the live store](https://boutique-store-tau.vercel.app/)
+
 [Features](#-features) · [Setup](#-installation--setup) · [Demo accounts](#-demo-credentials) · [Roadmap](#-roadmap)
 
 </div>
@@ -26,7 +28,11 @@ The application uses React Context for shared state and browser `localStorage` f
 
 ## 📸 Screenshots
 
-Add screenshots to `docs/screenshots/` and replace the placeholders below:
+### Storefront preview
+
+![Elegance Boutique storefront](https://github.com/Shahiskhan/Boutique-store/blob/main/public/boutique-store.png?raw=true)
+
+Additional screenshots can be added to `docs/screenshots/`:
 
 | Page | Preview |
 | --- | --- |
@@ -35,11 +41,6 @@ Add screenshots to `docs/screenshots/` and replace the placeholders below:
 | Shopping cart | Add `docs/screenshots/cart.png` |
 | Admin dashboard | Add `docs/screenshots/admin-dashboard.png` |
 | Product management | Add `docs/screenshots/admin-products.png` |
-
-<!--
-When screenshots are available, replace the table's placeholder text with images:
-![Elegance Boutique storefront](docs/screenshots/storefront.png)
--->
 
 ## ✨ Features
 
