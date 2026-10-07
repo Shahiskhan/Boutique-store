@@ -1,0 +1,87 @@
+/* Google Fonts import — yeh SABSE PEHLE hona chahiye */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+
+/* COLOR THEME  */
+@theme {
+    /* Primary — Boutique ka main rang (warm gold) */
+    --color-primary-50: #fdf8f0;
+    --color-primary-100: #f9ecd8;
+    --color-primary-200: #f2d8b0;
+    --color-primary-300: #e8be7e;
+    --color-primary-400: #dda04f;
+    --color-primary-500: #c9882e;
+    --color-primary-600: #a86d22;
+    --color-primary-700: #85541c;
+    --color-primary-800: #6b431a;
+    --color-primary-900: #583718;
+
+    /* Secondary — Cream/Beige */
+    --color-secondary-50: #fdfbf7;
+    --color-secondary-100: #f8f2e6;
+    --color-secondary-200: #f0e4cc;
+    --color-secondary-300: #e5d1ab;
+    --color-secondary-400: #d8b87f;
+    --color-secondary-500: #c9a054;
+
+    /* Accent — Deep charcoal */
+    --color-accent-50: #f6f6f6;
+    --color-accent-500: #4a4a4a;
+    --color-accent-900: #1a1a1a;
+
+    /* Semantic colors */
+    --color-background: #fdfbf7;
+    --color-surface: #ffffff;
+    --color-text: #2c2416;
+    --color-text-muted: #7a6f5f;
+    --color-border: #e5d9c5;
+}
+
+/* FONT THEME */
+@theme {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Inter', system-ui, sans-serif;
+
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+}
+
+/* SPACING */
+@theme {
+    --spacing: 0.25rem;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-full: 9999px;
+
+    --shadow-soft: 0 2px 8px rgba(201, 136, 46, 0.08);
+    --shadow-card: 0 4px 16px rgba(44, 36, 22, 0.06);
+}
+
+/* ANIMATION */
+@theme {
+    --duration-fast: 150ms;
+    --duration-normal: 300ms;
+    --duration-slow: 800ms;
+
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-luxury: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* ===== BODY DEFAULTS ===== */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+}
